@@ -1,4 +1,4 @@
-from cython cimport double
+from cython cimport floating
 
 cdef class People:
     cdef greet(self, double x):
